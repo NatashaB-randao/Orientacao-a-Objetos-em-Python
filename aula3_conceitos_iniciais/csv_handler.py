@@ -7,3 +7,6 @@ class CsvHandler:
 
     def read_data(self):
         print(f"Lendo dados de {self.dir}")
+
+csv_handler = CsvHandler("o/caminho/do/diretorio/.csv")
+csv_handler.read_data()
